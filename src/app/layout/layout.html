@@ -1,0 +1,25 @@
+<mat-sidenav-container class="app-container">
+    <!-- MENU LATERAL -->
+    <mat-sidenav mode="side" opened class="app-sidenav">
+        <h3 class="menu-title">Gestão de Cursos</h3>
+
+        <nav>
+            <a mat-button routerLink="/alunos" routerLinkActive="active">Alunos</a>
+            <a mat-button routerLink="/cursos">Cursos</a>
+            <a mat-button routerLink="/inscricoes">Inscrições</a>
+        </nav>
+
+        <div class="role-switch">
+            <button mat-stroked-button color="primary">Admin</button>
+            <button mat-stroked-button color="accent">Usuário</button>
+        </div>
+    </mat-sidenav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <mat-sidenav-content>
+        <mat-toolbar color="primary">Gestão de Cursos</mat-toolbar>
+        <div class="content">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
