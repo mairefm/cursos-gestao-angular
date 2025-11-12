@@ -1,59 +1,62 @@
-# CursosGestao
+# Angular Cursos Gestão
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+Aplicação em **Angular (CLI 20.x)** desenvolvida como projeto de portfólio e como parte do curso de Angular da Coderhouse.
 
-## Development server
+> **Status:** Em desenvolvimento — novas funcionalidades estão sendo adicionadas ao longo das próximas semanas.
 
-To start a local development server, run:
+---
+
+## Objetivo do projeto
+
+Criar uma aplicação de **gestão de cursos** onde seja possível:
+
+- Listar cursos disponíveis
+- Cadastrar novos cursos
+- Editar e excluir cursos
+- Visualizar detalhes
+- (Futuramente) integrar com API/Backend
+
+O foco é praticar os principais conceitos de **Angular moderno** que vejo no curso e que o mercado pede em vagas de Frontend.
+
+---
+
+## Conceitos de Angular trabalhados
+
+Ao longo do projeto estou aplicando:
+
+- Componentes e módulos
+- Data binding e diretivas estruturais (`*ngIf`, `*ngFor`, etc.)
+- Services e injeção de dependência
+- Rotas e navegação (`RouterModule`)
+- Formulários (Template-Driven e/ou Reactive Forms)
+- Consumo de APIs com `HttpClient`
+- Organização de pastas e boas práticas
+
+---
+
+## Tecnologias
+
+- **Angular (CLI 20.x)**
+- **TypeScript**
+- **HTML5 / CSS3**
+- **RxJS**
+- **Angular Material**
+
+---
+
+## Como rodar o projeto localmente
 
 ```bash
+# Clonar o repositório
+git clone https://github.com/mairefm/angular-cursos-gestao.git
+
+cd angular-cursos-gestao
+
+# Instalar as dependências
+npm install
+
+# Rodar o servidor de desenvolvimento
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Acessar no navegador
+http://localhost:4200
