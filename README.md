@@ -41,6 +41,8 @@ Ao longo do projeto estou aplicando:
 - **HTML5 / CSS3**
 - **RxJS**
 - **Angular Material**
+- **Rotas (RouterModule)**
+- **Services & HttpClient**
 
 ---
 
@@ -60,3 +62,4 @@ ng serve
 
 # Acessar no navegador
 http://localhost:4200
+
